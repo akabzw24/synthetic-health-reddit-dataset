@@ -19,13 +19,13 @@ The goal is to analyze the structure and distribution of the datasets and design
 | Tool | Purpose |
 |------|---------|
 | **Hugging Face Datasets** | Source for open-access Reddit and healthcare datasets |
-| **datasets** library | Load datasets via Python |
+| **library** | Load datasets via Python |
 | **pandas, numpy** | Data manipulation and merging |
 | **Faker** | Generating realistic synthetic Reddit post content |
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 Step 1: Data Sourcing
 - Loaded `solomonk/reddit_mental_health_posts` for Reddit-style mental health text  
