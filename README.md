@@ -40,7 +40,7 @@ Step 3: Data Synthesis
 - Paired them with synthetic Reddit posts generated via `Faker`  
 - Created 100,000 synthetic records  
 
-Step 4: Cleaning & Missing Value Strategy
+Step 4: Cleaning Missing Values
 - Filled 30304 missing `diagnosis` values with `"Other"` to best match the real-world scenario.   
 
 ---
