@@ -36,12 +36,12 @@ Step 2: API-Based Loading
 - Preprocessed columns for consistency  
 
 Step 3: Data Synthesis
-- Randomly sampled hospital features (age, gender, diagnosis, etc.)  
+- Randomly sampled features (age, gender, diagnosis, etc.)  
 - Paired them with synthetic Reddit posts generated via `Faker`  
 - Created 100,000 synthetic records  
 
 Step 4: Cleaning & Missing Value Strategy
-- Filled ~30k missing `diagnosis` values with `"Other"` for realism and data integrity  
+- Filled 30304 missing `diagnosis` values with `"Other"` to best match the real-world scenario.   
 
 ---
 
@@ -56,17 +56,17 @@ Step 4: Cleaning & Missing Value Strategy
 
 ```json
 {
-  "title": "Tired of always pretending.",
-  "body": "Sometimes I just want to stop being okay for others. I’m tired...",
-  "subreddit": "r/depression",
-  "score": 251,
-  "num_comments": 72,
+  "title": "Hear kid actually again.",
+  "body": "Maybe what address tonight song and happy. Deep fact western book evening threat choose...",
+  "subreddit": "r/ocd",
+  "score": 2,
+  "num_comments": 38,
   "age": "31-40",
   "gender": "Female",
   "diagnosis": "Diabetes",
   "severity": "Moderate",
-  "insurance": "Yes",
-  "stay_days": 9,
-  "admission_type": "Urgent"
+  "insurance": "No",
+  "stay_days": 7,
+  "admission_type": "Trauma"
 }
 
